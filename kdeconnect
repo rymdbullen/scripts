@@ -1,0 +1,3 @@
+#!/bin/bash
+qdbus org.kde.kded /kded loadModule kdeconnect
+kcmshell4 kdeconnect
